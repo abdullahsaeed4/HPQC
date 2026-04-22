@@ -73,4 +73,3 @@ Python is easier to use but comes with performance overhead, making it less suit
 ## Notes
 
 - Data file stored outside the repository as instructed
-- File sizes kept small (≤ 100,000 lines)
