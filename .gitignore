@@ -1,4 +1,5 @@
-data/
 time_write
 time_read
 *.out
+main/week5/data/string_mpi_100000.csv
+main/week5/data/string_serial_100000.csv

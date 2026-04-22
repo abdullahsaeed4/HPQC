@@ -51,9 +51,8 @@ The simulation produces an animation of the string over time.
 
 ### Serial animation
 
-![Serial Simulation](my_string_wave.gif)
+![Serial Simulation](data/my_string_wave.gif)
 
-Even though the frame looks flat in a screenshot, the animation shows the motion over time.
 
 ---
 
@@ -88,9 +87,9 @@ mpirun -np 4 ~/bin/my_string_wave_mpi 1000 5 25 ~/data/string_mpi_1000.csv
 
 ### MPI animation
 
-![MPI Simulation](my_string_wave_mpi.gif)
+![MPI Simulation](data/my_string_wave_mpi.gif)
 
-Again, the movement is visible in the animation rather than a single frame.
+
 
 ---
 
@@ -168,9 +167,9 @@ I improved it by introducing a **spring-based model**:
 
 ### Improved model animation
 
-![Spring Simulation](my_string_wave_spring.gif)
+![Spring Simulation](data/my_string_wave_spring.gif)
 
-This produces much more realistic oscillations compared to the original version.
+
 
 ---
 
