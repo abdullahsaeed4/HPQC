@@ -288,15 +288,3 @@ The custom reduce operation was correct and performed similarly to the built-in 
 
 ---
 
-## Overall Conclusion
-
-This week demonstrated several important MPI ideas:
-
-- message ordering is not guaranteed, but correct communication can still be achieved
-- send variants behave differently even when they produce the same result
-- internal timing is better than external timing for very small communication benchmarks
-- latency is approximately constant for small messages
-- bandwidth can be estimated from the slope of a linear fit of message size against communication time
-- collective communication routines such as `MPI_Scatter()` and `MPI_Reduce()` simplify code and can be as fast as or faster than manual point-to-point communication
-
-Overall, collective operations were cleaner and generally preferable, while point-to-point routines were useful for understanding the underlying communication behavior.
