@@ -1,0 +1,17 @@
+main():
+initialises MPI, gets rank and number of processes, checks input, assigns tasks, finalises MPI
+
+check_args():
+checks user provided one number and converts it
+
+check_uni_size():
+ensures there is at least one process
+
+check_task():
+decides whether process is root or client
+
+client_task():
+each process calculates rank * input and sends it to root
+
+root_task():
+receives values from all processes and adds them together
